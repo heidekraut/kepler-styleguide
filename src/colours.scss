@@ -1,0 +1,198 @@
+@import "./styles/variables.scss";
+@import "./styles/fonts.scss";
+
+
+
+
+.colours {
+    &__img-page-ctn-colours {
+        top: 0px;
+        right: 0px;
+        padding: 4rem 1rem;
+        margin-left: 13%;
+        overflow:hidden;
+        background: linear-gradient(to top, rgba(20, 20, 20, 1), rgba(0, 0, 0, 0.45)), url('./images//backgrounds/antenna.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 1024px){
+        &__img-page-ctn-colours {
+            margin-left: 22%;
+        }
+    }
+
+    @media screen and (min-width: 1115px){
+        &__img-page-ctn-colours {
+            margin-left: 10%;
+        }
+    }
+
+    @media screen and (max-width: 660px){
+        &__img-page-ctn-colours {
+            margin-left: 0%;
+            padding-top: 160px;
+        }
+    }
+
+    &__inner-page-ctn {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        top: 0px;
+        right: 0px;
+        align-items: center;
+        width: 75%;
+    }
+
+    &__main-title {
+        font-family: "Built-Titling-Light";
+        color: white;
+        font-size: 72pt;
+        letter-spacing: 2px;
+        margin: 1rem 0rem;
+        width: 100%;
+    }
+
+    &__img-colours {
+        width: 100%;
+        max-width: 490px;
+        box-shadow: 0 0 black;
+        margin: 1rem;
+    }
+
+    &__swatch-ctn {
+        margin: 1rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 1115px) {
+        &__swatch-ctn {
+            height: unset;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__img-colour-swatch {
+        width: 100%;
+        max-width: 140px;
+        margin: 0.5rem;
+    }
+
+    &__img-ctn {
+        margin: 1rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 1115px) {
+        &__img-ctn {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    &__txt {
+        color:white;
+        font-size: 20pt;
+    }
+
+    &__regular-title {
+        font-family: "Built-Titling-Light";
+        color: white;
+        font-size: 30pt;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    &__logo {
+        width: 300px;
+    }
+
+    &__txt-ctn {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0rem;
+    }
+
+    &__intro-ctn {
+        width: 100%;
+    }
+
+    &__divider {
+        height: 1px;
+        width: 100%;
+        opacity: 0.2;
+        border-bottom: 0.25px solid white;
+    }
+
+    &__small-title {
+        font-family: "Helvetica-Neue-Thin";
+        font-size: 17pt;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+
+    &__subtitle {
+        font-family: "Helvetica-Neue-Thin";
+        font-size: 22pt;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+
+    &__divider-small {
+        height: 1px;
+        width: 100%;
+        opacity: 0.6;
+        margin: 0.5rem 0rem;
+        border-bottom: 0.25px solid white;
+    }
+
+
+    &__body-txt {
+        font-family: "Helvetica-Neue-Thin";
+        font-size: 16pt;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-bottom: 1rem;
+    }
+
+    &__page-ctn {
+        top: 0px;
+        right: 0px;
+        padding: 1rem;
+        margin-left: 13%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 1024px){
+        &__page-ctn {
+            margin-left: 22%;
+        }
+    }
+
+    @media screen and (max-width: 660px){
+        &__page-ctn {
+            margin-left: 0%;
+        }
+    }
+}
+
+
+
+
