@@ -33,13 +33,12 @@ export class Images extends Component {
     render() {
         return (
 <>
+
             <div className="images__img-page-ctn-images">
-                <div className="logos__inner-page-ctn">
-                    
-    
-                    <div className="logos__intro-ctn">
-                        <div className="logos__txt-ctn">
-                            <span className="logos__main-title">Images</span>
+                <div className="images__inner-page-ctn">
+                    <div className="images__intro-ctn">
+                        <div className="images__txt-ctn">
+                            <span className="images__main-title">IMAGES</span>
                         </div>
                     </div>
                 </div>
@@ -52,8 +51,8 @@ export class Images extends Component {
                 <div className="images__inner-row">
 
                     <div className="images__med-ctn">
-                        <span className="images__subtitle margin-bottom-2">Acceptable Imagery</span>
-                        {/* <div className="images__divider-small"></div> */}
+                        <span className="images__subtitle">Acceptable Imagery</span>
+                        <div className="images__divider-small"></div>
                         <span className="images__body-txt margin-bottom-4">
                             Using the right imagery is key to Kepler's brand. The right
                             imagery can make or break a piece of visual content. Use the guides below to help you
@@ -122,7 +121,8 @@ export class Images extends Component {
                         </div>
                     
                     <div className="images__med-ctn">
-                        <span className="images__subtitle margin-top-3 margin-bottom-2">Image Editing</span>
+                        <span className="images__subtitle margin-top-3">Image Editing</span>
+                        <div className="colours__divider-small"></div>
                         <span className="images__body-txt margin-bottom-4">
                         Kepler images should almost always be edited to match branding colour scheme before being used for external purposes. 
                         </span>

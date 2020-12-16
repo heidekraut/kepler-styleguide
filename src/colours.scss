@@ -2,22 +2,23 @@
 @import "./styles/fonts.scss";
 
 
-
-
 .colours {
     &__img-page-ctn-colours {
         top: 0px;
         right: 0px;
-        padding: 4rem 1rem;
+        padding: 2rem 1rem;
         margin-left: 13%;
         overflow:hidden;
-        background: linear-gradient(to top, rgba(20, 20, 20, 1), rgba(0, 0, 0, 0.45)), url('./images//backgrounds/antenna.jpg');
+        background: linear-gradient(to top, rgba(20, 20, 20, 1), rgba(0, 0, 0, 0.45)), url('./images//backgrounds/iceboat.jpeg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        justify-content: center;
+        height: 300px;
     }
 
     @media screen and (max-width: 1024px){
@@ -28,7 +29,7 @@
 
     @media screen and (min-width: 1115px){
         &__img-page-ctn-colours {
-            margin-left: 10%;
+            margin-left: 13%;
         }
     }
 
@@ -36,6 +37,7 @@
         &__img-page-ctn-colours {
             margin-left: 0%;
             padding-top: 160px;
+            text-align: center;
         }
     }
 
@@ -47,12 +49,20 @@
         right: 0px;
         align-items: center;
         width: 75%;
+        margin: 2rem;
+    }
+
+
+    &__inner-row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
 
     &__main-title {
         font-family: "Built-Titling-Light";
         color: white;
-        font-size: 72pt;
+        font-size: 62pt;
         letter-spacing: 2px;
         margin: 1rem 0rem;
         width: 100%;
@@ -60,16 +70,17 @@
 
     &__img-colours {
         width: 100%;
-        max-width: 490px;
+        max-width: 380px;
         box-shadow: 0 0 black;
         margin: 1rem;
+        align-self: flex-start;
     }
 
     &__swatch-ctn {
         margin: 1rem;
-        height: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 
     @media screen and (max-width: 1115px) {
@@ -83,7 +94,7 @@
 
     &__img-colour-swatch {
         width: 100%;
-        max-width: 140px;
+        max-width: 100px;
         margin: 0.5rem;
     }
 
@@ -92,7 +103,7 @@
         height: 100%;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     @media screen and (max-width: 1115px) {
@@ -100,11 +111,6 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-    }
-
-    &__txt {
-        color:white;
-        font-size: 20pt;
     }
 
     &__regular-title {
@@ -146,11 +152,10 @@
 
     &__subtitle {
         font-family: "Helvetica-Neue-Thin";
-        font-size: 22pt;
+        font-size: 16pt;
         color: white;
         letter-spacing: 1px;
     }
-
 
     &__divider-small {
         height: 1px;
@@ -160,13 +165,12 @@
         border-bottom: 0.25px solid white;
     }
 
-
     &__body-txt {
         font-family: "Helvetica-Neue-Thin";
-        font-size: 16pt;
+        font-size: 12pt;
         color: white;
-        letter-spacing: 1px;
-        line-height: 30px;
+        letter-spacing: 0.3px;
+        line-height: 22px;
         margin-bottom: 1rem;
     }
 
@@ -190,6 +194,12 @@
         &__page-ctn {
             margin-left: 0%;
         }
+    }
+
+    &__med-ctn {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }
 

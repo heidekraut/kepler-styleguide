@@ -20,7 +20,7 @@ export class Type extends Component {
     
                     <div className="type__intro-ctn">
                         <div className="type__txt-ctn">
-                            <span className="type__main-title">Type</span>
+                            <span className="type__main-title">Typefaces</span>
                         </div>
                     </div>
                 </div>
@@ -31,8 +31,8 @@ export class Type extends Component {
                         <div className="type__inner-row">
 
                             <div className="type__med-ctn">
-                                <span className="type__txt">Title Font</span>
-                                <div className="type__divider-small margin-05"></div>
+                                <span className="type__subtitle">Title Font</span>
+                                <div className="type__divider-small"></div>
                                 <div className="type__txt-ctn">
                                 <span className="type__txt-BT-Xlarge">Built Titling light</span>
                                     <span className="type__txt-BT">A B C D E F</span>
@@ -42,11 +42,10 @@ export class Type extends Component {
                                 </div>
                         </div>
                         <div className="type__inner-row">
-
                         <div className="type__med-ctn margin-top-2">
-                            <span className="type__txt">Usage Details - Titles Only</span>
+                            <span className="type__subtitle">Usage Details - Titles Only</span>
 
-                            <div className="type__divider-small margin-05"></div>
+                            <div className="type__divider-small"></div>
                             <span className="type__body-txt">
                                     Built Titling should only be used in titles.
                                     Do not use Built Titling in subtitles or body text.

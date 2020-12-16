@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./downloads.scss";
 import LogoDownloads from "./download/LogoDownloads.zip"
+import PowerpointDownload from "./download/PowerpointTemplate.zip"
+
 
 export class Downloads extends Component {
   render() {
@@ -33,7 +35,7 @@ export class Downloads extends Component {
                                 </span>
 \
                                 <div className="images__button">
-                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__subtitle">LOGOS</a>
+                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__btn-txt">LOGOS</a>
                                 </div>
                             </div>
                         </div>
@@ -50,10 +52,10 @@ export class Downloads extends Component {
 
 
                                 <div className="images__button">
-                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__subtitle">POWERPOINT</a>
+                                  <a href={PowerpointDownload} target="_blank" rel="noopener noreferrer" className="images__btn-txt">POWERPOINT</a>
                                 </div>
                                 <div className="images__button">
-                                  <a href="https://docs.google.com/presentation/d/1gZhvgwhBrG7LgRYe56Tk3X3Ud_yNkIWb5ES_PVdI5wM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="images__subtitle">GOOGLE SHEETS</a>
+                                  <a href="https://docs.google.com/presentation/d/1gZhvgwhBrG7LgRYe56Tk3X3Ud_yNkIWb5ES_PVdI5wM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="images__btn-txt">GOOGLE SHEETS</a>
                                 </div>
 
                             </div>
@@ -70,10 +72,10 @@ export class Downloads extends Component {
                                 </span>
 
                                 <div className="images__button">
-                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__subtitle">WORD</a>
+                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__btn-txt">WORD</a>
                                 </div>
                                 <div className="images__button">
-                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__subtitle">GOOGLE DOCS</a>
+                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__btn-txt">GOOGLE DOCS</a>
                                 </div>
 
                             </div>
@@ -84,9 +86,13 @@ export class Downloads extends Component {
                             <div className="images__med-ctn">
                                 <span className="images__subtitle">Typefaces</span>
                                 <div className="images__divider-small"></div>
-                                <span className="images__body-txt">
+                                <span className="images__body-txt margin-bottom-0">
                                     Images of the industries that Kepler serves and has the ability to serve 
                                     make up a large percentage of the Kepler brand.
+                                </span>
+                                <span className="images__body-txt">
+                                    Typefaces cannot be redistributed online. Please reach out to Heather at 
+                                    halsen@kepler.space if you would like access to fonts.
                                 </span>
                             </div>
                         </div>
