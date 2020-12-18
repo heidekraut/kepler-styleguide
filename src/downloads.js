@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./downloads.scss";
 import LogoDownloads from "./download/LogoDownloads.zip"
 import PowerpointDownload from "./download/PowerpointTemplate.zip"
+import HeaderFooter from "./download/LetterTemplate.zip"
 
 
 export class Downloads extends Component {
@@ -72,12 +73,8 @@ export class Downloads extends Component {
                                 </span>
 
                                 <div className="images__button">
-                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__btn-txt">WORD</a>
+                                  <a href={HeaderFooter} target="_blank" rel="noopener noreferrer" className="images__btn-txt">LETTER TEMPLATE</a>
                                 </div>
-                                <div className="images__button">
-                                  <a href={LogoDownloads} target="_blank" rel="noopener noreferrer" className="images__btn-txt">GOOGLE DOCS</a>
-                                </div>
-
                             </div>
                         </div>
 

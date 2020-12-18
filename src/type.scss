@@ -71,10 +71,19 @@
         width: 100%;
     }
 
-    &__txt {
+
+    &__body-txt-example {
         font-family: "Helvetica-Neue-Thin";
         color:white;
-        font-size: 14pt;
+        font-size: 18pt;
+        margin-bottom: 0.5rem;
+    }
+
+    &__body-txt-example-large {
+        font-family: "Helvetica-Neue-Thin";
+        color:white;
+        font-size: 22pt;
+        margin-bottom:1rem;
     }
 
     &__txt-BT{

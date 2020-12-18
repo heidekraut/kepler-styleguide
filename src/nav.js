@@ -21,45 +21,45 @@ const Nav = () => {
                 <div className="nav__all-links-nav">
                     <div className="nav__link-ctn">
                         <Link className to='/' >
-                        <span className="nav__link hover hover-1">MISSION</span>
+                        <span className="nav__link hover hover-1">Mission</span>
                         </Link> 
                     </div>
 
                     
                     <div className="nav__link-ctn">
                     <Link className to='/tone' >
-                        <span className="nav__link hover hover-1">TONE</span>
+                        <span className="nav__link hover hover-1">Tone</span>
                     </Link>
                     </div>
                     
 
                     <div className="nav__link-ctn">
                         <Link to='/logos'>
-                        <span className="nav__link hover hover-1">LOGOS</span>
+                        <span className="nav__link hover hover-1">Logos</span>
                         </Link>
                     </div>
 
                     <div className="nav__link-ctn">
                         <Link to='/colours'>
-                        <span className="nav__link hover hover-1">COLOUR</span>
+                        <span className="nav__link hover hover-1">Colour</span>
                         </Link>
                     </div>
 
                     <div className="nav__link-ctn">
                     <Link to='/images'>
-                        <span className="nav__link hover hover-1">IMAGES</span>
+                        <span className="nav__link hover hover-1">Images</span>
                     </Link>
                     </div>
 
                     <div className="nav__link-ctn">
                     <Link to='/type'>
-                        <span className="nav__link hover hover-1">TYPE</span>
+                        <span className="nav__link hover hover-1">Type</span>
                     </Link>
                     </div>
 
                     <div className="nav__link-ctn">
                     <Link to='/downloads'>
-                        <span className="nav__link hover hover-1">DOWNLOADS</span>
+                        <span className="nav__link hover hover-1">Downloads</span>
                     </Link>
                     </div>
 
